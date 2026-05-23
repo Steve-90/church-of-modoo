@@ -1,0 +1,6 @@
+{
+  "name": "교회 관리 플랫폼",
+  "description": "교인 명부 관리, 헌금 기록, 심방 및 기도제목 로그, 실시간 대시보드 및 알림톡 발송 링크를 제공하는 소규모 교회 맞춤형 행정 관리 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

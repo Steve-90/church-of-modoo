@@ -1,0 +1,65 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", -apple-system, sans-serif;
+  
+  --color-bento-bg: #F4F7FA;
+  --color-bento-card: #FFFFFF;
+  --color-bento-border: #E2E8F0;
+  --color-bento-accent: #3B82F6;
+  --color-bento-accent-bg: #EFF6FF;
+  
+  --color-tag-birthday-bg: #FEE2E2;
+  --color-tag-birthday-text: #EF4444;
+  
+  --color-tag-visit-bg: #FEF3C7;
+  --color-tag-visit-text: #D97706;
+  
+  --color-tag-new-bg: #DCFCE7;
+  --color-tag-new-text: #16A34A;
+}
+
+body, html {
+  font-family: "Pretendard", "Apple SD Gothic Neo", -apple-system, sans-serif !important;
+  background-color: #F4F7FA !important;
+  color: #1A1F26 !important;
+}
+
+/* Beautiful custom classes matching the layout specs in Design HTML */
+.bento-card-style {
+  background-color: #FFFFFF !important;
+  border-radius: 20px !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-card-style:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.tag-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tag-birthday {
+  background-color: #FEE2E2 !important;
+  color: #EF4444 !important;
+}
+
+.tag-visit {
+  background-color: #FEF3C7 !important;
+  color: #D97706 !important;
+}
+
+.tag-new {
+  background-color: #DCFCE7 !important;
+  color: #16A34A !important;
+}
